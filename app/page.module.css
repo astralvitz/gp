@@ -1,0 +1,49 @@
+.nav {
+  @apply flex;
+  @apply items-center;
+  @apply justify-between;
+  @apply gap-4;
+  @apply flex-col;
+}
+
+.row {
+  @apply flex;
+  @apply flex-row;
+  @apply gap-x-2;
+}
+
+a.borderlink {
+  border: 1px solid gold;
+  @apply p-1;
+  @apply text-xl;
+}
+
+a.borderlink:hover {
+  background-color: gold;
+  color: black;
+}
+
+.item {
+  position: relative;
+  display: inline-block;
+}
+
+.item .tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: gold;
+  color: black;
+  text-align: center;
+  /* border-radius: 6px; */
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.item:hover .tooltip {
+  visibility: visible;
+}

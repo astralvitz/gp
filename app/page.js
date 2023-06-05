@@ -1,9 +1,88 @@
 import Image from 'next/image'
+import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+    <main className="flex min-h-screen flex-col items-center justify-between p-8 sm:p-24">
+      {/* navbar */}
+      <div className="z-10 w-full max-w-5xl">
+        <div className="sm:flex items-center justify-between gap-4">
+          <div className="flex items-center self-center justify-center mb-4">
+            <a href="https://linktr.ee/moneybag_james" className="items-center">
+              <Image
+                src="/gplogo-transparent.png"
+                alt="GP Logo"
+                width={96}
+                height={96}
+                priority
+              />
+            </a>
+          </div>
+          <nav className={styles.nav}>
+            <div className={styles.row}>
+              <div className={styles.item}>
+                <a href="#" className={styles.borderlink}>The Story</a>
+                <span className={styles.tooltip}>coming soon</span>
+              </div>
+              <div className={styles.item}>
+                <a href="#" className={styles.borderlink}>Roadmap</a>
+                <span className={styles.tooltip}>coming soon</span>
+              </div>
+            </div>
+            {/* <div className={styles.row}>
+              <div className={styles.item}>
+                <a href="">Guide to Crypto</a>
+                <span className={styles.tooltip}>coming soon</span>
+              </div>
+              <div className={styles.item}>
+                <a href="">Guide to Runescape</a>
+                <span className={styles.tooltip}>coming soon</span>
+              </div>
+            </div> */}
+          </nav>
+        </div>
+
+        {/* hero */}
+        <div className="flex flex-col items-center justify-center gap-4 mt-4">
+          <h1 className="text-2xl md:text-4xl px-8 sm:px-24 md:px-36 font-semibold text-center">
+            It's me, Moneybag James. Master trader since day one. You can find me slinging $gp at the GE.
+          </h1>
+          <div className={styles.center}>
+            <Image
+              className=""
+              src="/moneybagjamespfp.jpg"
+              alt="Moneybag James"
+              width={320}
+              height={320}
+              priority
+            />
+          </div>
+          <p className="text-2xl font-semibold text-center">
+            Linktree: <a href="https://linktr.ee/moneybag_james" className={styles.borderlink}>https://linktr.ee/moneybag_james</a> 
+          </p>
+          <p className="text-2xl font-semibold text-center">
+            $gp contract: <a href="https://dexscreener.com/ethereum/0x8F8eD076e61A27DB72a5724ea0907A66fb0ddB32" className={styles.borderlink}>0x8F8eD076e61A27DB72a5724ea0907A66fb0ddB32</a> 
+          </p>
+          <p className="text-2xl font-semibold text-center">
+            $gp on <a href="https://coinmarketcap.com/currencies/gold-pieces/" className={styles.borderlink}>CoinMarketCap</a>
+          </p>
+          <h2 className="text-3xl md:text-5xl font-semibold text-center mt-96">
+            something stirs beneath...
+          </h2>
+          <div className={styles.center}>
+            <Image
+              className="animate-pulse"
+              src="/dragon2.jpg"
+              alt="Dragon Logo"
+              width={320}
+              height={320}
+              priority
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">app/page.js</code>
@@ -37,9 +116,9 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
+      </div> */}
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
+      {/* <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -107,7 +186,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   )
 }
