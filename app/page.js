@@ -45,7 +45,7 @@ export default function Home() {
         {/* hero */}
         <div className="flex flex-col items-center justify-center gap-4 mt-4">
           <h1 className="text-2xl md:text-4xl px-8 sm:px-24 md:px-36 font-semibold text-center">
-            It's me, Moneybag James. Master trader since day one. You can find me slinging $gp at the GE.
+            It&apos;s me, Moneybag James. Master trader since day one. You can find me slinging $gp at the GE.
           </h1>
           <div className={styles.center}>
             <Image
