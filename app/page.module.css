@@ -8,8 +8,9 @@
 
 .row {
   @apply flex;
-  @apply flex-row;
-  @apply gap-x-2;
+  @apply flex-wrap;
+  @apply gap-4;
+  @apply justify-center;
 }
 
 .borderlink {

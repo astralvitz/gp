@@ -62,7 +62,7 @@ export default function Home() {
                 priority
               />
             </div>
-            <p className="text-2xl font-semibold text-center">
+            <p className="text-lg md:text-2xl font-semibold text-center">
               $gp contract: 0x8F8eD076e61A27DB72a5724ea0907A66fb0ddB32
             </p>
             <nav className={styles.nav} aria-labelledby='external-navigation'>

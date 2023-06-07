@@ -50,7 +50,7 @@ body {
   @apply max-w-[100vw];
   @apply overflow-x-hidden;
   cursor: url(/dscim.cur), auto;
-  @apply text-lg;
+  /* @apply text-lg; */
 }
 
 a {
