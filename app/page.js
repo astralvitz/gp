@@ -25,7 +25,7 @@ export default function Home() {
                 <span className={styles.tooltip}>coming soon</span>
               </div>
               <div className={styles.item}>
-                <a href="#" className={styles.borderlink}>Roadmap</a>
+                <a href="#" className={styles.borderlink}>Secrets</a>
                 <span className={styles.tooltip}>coming soon</span>
               </div>
             </div>
