@@ -12,13 +12,13 @@
   @apply gap-x-2;
 }
 
-a.borderlink {
+.borderlink {
   border: 1px solid gold;
   @apply p-1;
   @apply text-xl;
 }
 
-a.borderlink:hover {
+.borderlink:hover {
   background-color: gold;
   color: black;
 }
