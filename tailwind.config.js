@@ -16,9 +16,9 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'minimap-ge': 'url(/minimap_ge.jpg)',
         'dialogue-box': 'url(/ui_dialogue.jpg)',
         'minimap': 'url(/ui_minimap_transparency.jpg)',
+        'minimap-ge': 'url(/ui_minimap.jpg)',
       },
       fontFamily: {
         'runescape': ['Runescape', 'sans-serif'],

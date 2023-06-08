@@ -1,6 +1,7 @@
 /* 513 x 350 minimap    32.1% x 33.3% */
 .frame {
-  @apply bg-minimap;
+  @apply bg-minimap-ge;
+  /* @apply bg-minimap; */
   @apply bg-black;
   @apply w-[32.1%];
   @apply h-[33.3%];
