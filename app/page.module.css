@@ -4,6 +4,8 @@
   @apply justify-between;
   @apply gap-4;
   @apply flex-col;
+  @apply pt-4;
+  @apply sm:pt-0;
 }
 
 .row {

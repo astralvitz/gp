@@ -10,6 +10,12 @@ All Runescape graphics and audio copyright Jagex
 
 Runescape music downloaded here: https://downloads.khinsider.com/game-soundtracks/album/old-school-runescape
 
+Audio files from: https://oldschool.runescape.wiki/w/Category:Audio_files
+
+other things found while websurfing
+- https://www.reddit.com/r/2007scape/comments/54kbbw/2005_era_interface_for_old_school_assets_made/
+- 
+
 # Generated info below
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

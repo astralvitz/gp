@@ -2,15 +2,17 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 import { RSUI } from '@/ui/rsui'
+import { Click } from '@/components/click'
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between p-8">
+    <main className="flex flex-col items-center justify-between p-8 sm:p-0">
+      <Click />
       {/* container */}
-      <div className="z-10 w-full max-w-5xl">
+      <div className="z-10 w-full max-w-5xl p-4 sm:hidden">
         {/* navbar */}
         <div className="sm:flex items-center justify-between gap-4">
-          <div className="flex items-center self-center justify-center mb-4">
+          <div className="flex items-center self-center justify-center">
             <a href="https://linktr.ee/moneybag_james" className="items-center">
               <Image
                 src="/gplogo-transparent.png"
