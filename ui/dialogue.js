@@ -3,7 +3,6 @@ import styles from './dialogue.module.css';
 export function Dialogue() {
   return (
     <div className={styles.frame}>
-      {/* <img src="/ui_dialogue.jpg" alt="dialogue" /> */}
       <div className={styles.box}>
         <div className={styles.image}>
           <img src="/moneybagjamespfp-transparent.png" alt="MoneyBagJames" />

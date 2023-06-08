@@ -1,6 +1,6 @@
 /* 1085 x 338 dialogue  67.8% x 32.2% */
 .frame {
-  @apply bg-amber-800;
+  @apply bg-black;
   @apply max-w-[1085px];
   @apply max-h-[338px];
   @apply w-[67.8%];
@@ -9,11 +9,10 @@
   @apply absolute;
   @apply left-0;
   @apply bottom-0;
-
-  background-image: url('/ui_dialogue.jpg');
-  @apply bg-cover;
-
   @apply flex;
+
+  @apply bg-dialogue-box;
+  @apply bg-cover;
 }
 
 .box {

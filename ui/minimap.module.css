@@ -1,5 +1,7 @@
-.box {
-  /* @apply bg-green-500; */
+/* 513 x 350 minimap    32.1% x 33.3% */
+.frame {
+  @apply bg-minimap;
+  @apply bg-black;
   @apply w-[32.1%];
   @apply h-[33.3%];
   @apply max-w-[513px];
@@ -8,6 +10,26 @@
   @apply absolute;
   @apply right-0;
   @apply top-0;
+  @apply bg-cover;
+
+  @apply items-center;
+  @apply justify-center;
 }
 
-/* 513 x 350 minimap    32.1% x 33.3% */
+.relativeframe {
+  @apply relative;
+  @apply flex;
+}
+
+.underlying_image {
+  @apply m-auto;
+  @apply w-[80%];
+}
+
+.frame_overlay {
+  @apply z-10;
+  @apply m-auto;
+  @apply absolute;
+  @apply top-0;
+  @apply left-0;
+}

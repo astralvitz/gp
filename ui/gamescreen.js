@@ -8,7 +8,7 @@ export function GameScreen() {
       <p className={styles.text}>$gp contract / 0x8F8eD076e61A27DB72a5724ea0907A66fb0ddB32</p>
       {/* <p className={styles.text}>$gp balance / 00000000</p> */}
       <div className={styles.tells}>
-      <Music />
+        <Music />
       </div>
     </div>
   )
