@@ -1,11 +1,14 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+import { RSUI } from '@/ui/rsui'
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8 sm:p-24">
-      {/* navbar */}
+    <main className="flex flex-col items-center justify-between p-8">
+      {/* container */}
       <div className="z-10 w-full max-w-5xl">
+        {/* navbar */}
         <div className="sm:flex items-center justify-between gap-4">
           <div className="flex items-center self-center justify-center mb-4">
             <a href="https://linktr.ee/moneybag_james" className="items-center">
@@ -48,7 +51,7 @@ export default function Home() {
 
         {/* <div className="flex flex-wrap"> */}
           {/* hero w-1/2  */}
-          <div className="flex flex-col items-center justify-center gap-4 mt-4">
+          <div className="flex flex-col items-center justify-center gap-4 mt-4 hidden">
             <h1 className="text-2xl md:text-4xl px-8 sm:px-24 md:px-36 font-semibold text-center">
               It&apos;s me, Moneybag James. Master trader since day one. You can find me slinging $gp at the GE.
             </h1>
@@ -109,13 +112,17 @@ export default function Home() {
               />
             </div>
           </div>
-          {/* inventory */}
+          {/* inventory (old idea) */}
           {/* <div className="w-1/2">
 
           </div> */}
         {/* </div> */}
         
       </div>
+      {/* endcontainer */}
+
+      {/* fullscreen game ui */}
+      <RSUI />
     </main>
   )
 }

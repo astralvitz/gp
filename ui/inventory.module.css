@@ -1,0 +1,13 @@
+.box {
+  @apply bg-red-500;
+  @apply max-w-[514px];
+  @apply max-h-[699px];
+  @apply w-[32.1%];
+  @apply h-[66.6%];
+
+  @apply absolute;
+  @apply right-0;
+  @apply bottom-0;
+}
+
+/* 514 x 699 inventory  32.1% x 66.6% */

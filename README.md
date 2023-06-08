@@ -1,3 +1,17 @@
+# goldpieces.io
+
+
+
+### Credits
+
+Website developed by Lavitz Starlove ∞ Starscape Digital
+
+All Runescape graphics and audio copyright Jagex
+
+Runescape music downloaded here: https://downloads.khinsider.com/game-soundtracks/album/old-school-runescape
+
+# Generated info below
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

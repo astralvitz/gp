@@ -1,0 +1,25 @@
+/* 1085 x 711 gamescreen  67.8% x 67.7% */
+.box {
+  @apply bg-black;
+  /* @apply max-w-[1085px];
+  @apply max-h-[711px]; */
+  @apply w-[67.8%];
+  /* @apply h-[67.7%]; */
+
+  @apply absolute;
+  @apply left-0;
+  @apply top-0;
+}
+
+.text {
+  @apply text-white;
+  /* @apply hidden;
+  @apply xs:inline-block; */
+  @apply xs:text-sm;
+  @apply sm:text-base;
+  @apply md:text-xl;
+  @apply relative;
+  @apply z-10;
+  @apply p-1;
+  @apply break-words;
+}

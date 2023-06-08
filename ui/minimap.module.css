@@ -1,0 +1,13 @@
+.box {
+  /* @apply bg-green-500; */
+  @apply w-[32.1%];
+  @apply h-[33.3%];
+  @apply max-w-[513px];
+  @apply max-h-[350px];
+
+  @apply absolute;
+  @apply right-0;
+  @apply top-0;
+}
+
+/* 513 x 350 minimap    32.1% x 33.3% */

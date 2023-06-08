@@ -1,0 +1,24 @@
+.frame {
+  /* @apply bg-rs-screen; */
+  /* @apply border;
+  @apply border-solid;
+  @apply border-yellow-500; */
+  @apply overflow-visible;
+  @apply relative;
+
+  @apply bg-black;
+  @apply w-[90vw];
+  @apply h-[59vw];
+  /* @apply w-[100vw];
+  @apply h-[65vw]; */
+  @apply m-auto;
+
+  /* @apply w-[1598px]; */
+  /* @apply h-[1049px]; */
+}
+
+/* 1085+513 x 699+350 = 1598 x 1049 full */
+/* 1085 x 711 gamescreen  67.8% x 67.7% */
+/* 1085 x 338 dialogue  67.8% x 32.2% */
+/* 514 x 699 inventory  32.1% x 66.6% */
+/* 513 x 350 minimap    32.1% x 33.3% */
