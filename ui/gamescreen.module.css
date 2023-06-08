@@ -35,3 +35,10 @@
   @apply sm:text-sm;
   @apply text-base;
 }
+
+.screen {
+  @apply m-auto;
+  @apply top-[20%];
+  @apply w-1/2;
+  @apply relative;
+}
