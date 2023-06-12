@@ -15,7 +15,7 @@
 .inventory {
   @apply grid;
   @apply grid-cols-4;
-  @apply gap-2;
+  @apply gap-3;
   @apply py-[20%];
   @apply px-[15%];
 }
