@@ -41,7 +41,7 @@
   /* @apply leading-tight;
   @apply md:leading-normal; */
   @apply xs:text-sm;
-  @apply md:text-2xl;
+  @apply md:text-xl;
   @apply flex;
   @apply flex-col;
   @apply sm:justify-between;

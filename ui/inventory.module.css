@@ -1,6 +1,7 @@
 /* 514 x 699 inventory  32.1% x 66.6% */
-.box {
-  @apply bg-black;
+.frame {
+  @apply bg-inventory;
+  @apply bg-cover;
   @apply max-w-[514px];
   @apply max-h-[699px];
   @apply w-[32.1%];
@@ -9,4 +10,45 @@
   @apply absolute;
   @apply right-0;
   @apply bottom-0;
+}
+
+.inventory {
+  @apply grid;
+  @apply grid-cols-4;
+  @apply gap-2;
+  @apply py-[20%];
+  @apply px-[15%];
+}
+
+.slot {
+  @apply w-full;
+  @apply h-auto;
+  @apply hover:scale-110;
+  @apply duration-200;
+}
+
+.tooltip {
+  visibility: hidden;
+  @apply w-[120px];
+  /* @apply bg-orange-950; */
+  /* background-color: #333333; */
+  @apply bg-amber-950;
+  @apply bg-opacity-20;
+  @apply border border-solid;
+  border-color: #663333;
+  @apply text-white;
+  @apply text-center;
+  /* border-radius: 6px; */
+
+  @apply absolute;
+  z-index: 1;
+  bottom: -69%;
+}
+
+.tooltip_bold {
+  @apply text-orange-500;
+}
+
+.slot:hover .tooltip {
+  visibility: visible;
 }

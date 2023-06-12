@@ -19,6 +19,7 @@ module.exports = {
         'dialogue-box': 'url(/ui_dialogue.jpg)',
         'minimap': 'url(/ui_minimap_transparency.jpg)',
         'minimap-ge': 'url(/ui_minimap.jpg)',
+        'inventory': 'url(/ui_inventory.jpg)',
       },
       fontFamily: {
         'runescape': ['Runescape', 'sans-serif'],

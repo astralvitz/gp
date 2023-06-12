@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from './dialogue.module.css';
 
 export function Dialogue() {
@@ -5,7 +6,12 @@ export function Dialogue() {
     <div className={styles.frame}>
       <div className={styles.box}>
         <div className={styles.image}>
-          <img src="/moneybagjamespfp-transparent.png" alt="MoneyBagJames" />
+          <Image
+            src="/moneybagjamespfp-transparent.png"
+            alt="MoneyBagJames"
+            width={160}
+            height={160}
+          />
         </div>
         <div className={styles.textbox}>
           <p className={styles.name}>Money Bag James</p>

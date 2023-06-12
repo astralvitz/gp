@@ -6,7 +6,7 @@ import { Click } from '@/components/click'
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between p-8 sm:p-0">
+    <main className="flex flex-col items-center justify-between">
       <Click />
       {/* container */}
       <div className="z-10 w-full max-w-5xl p-4 sm:hidden">

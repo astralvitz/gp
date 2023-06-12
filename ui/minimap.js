@@ -2,14 +2,20 @@ import Image from 'next/image';
 
 import styles from './minimap.module.css';
 
+const images = ['/gnomebruh.gif', '/minimap_ge.jpg'];
+
 export function Minimap() {
+  let randomImage = images[Math.floor(Math.random() * images.length)];
+  // let randomImage = images[Math.floor(Math.random() * images.length)] + '?t=' + Date.now();
+
   return (
     <div className={styles.frame}>
-      {/* <div className={styles.relativeframe}>
+      <div className={styles.relativeframe}>
         <div className={styles.underlying_image}>
           <Image
             className="underlying-image"
-            src="/buyinggf.png"
+            // src={randomImage}
+            src={images[0]}
             alt="Framed Image"
             width={513}
             height={320}
@@ -26,7 +32,7 @@ export function Minimap() {
             priority
           />
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }

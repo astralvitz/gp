@@ -36,9 +36,9 @@ body {
     )
     rgb(var(--background-start-rgb)); */
   /* background-image: url('/gplogo-transparent.png'); */
-  background-image: url('/2147m.jpg');
+  background-image: url('/runebg.jpg');
   background-repeat: repeat;
-  background-size: 32px;
+  /* background-size: 32px; */
 }
 
 * {
