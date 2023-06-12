@@ -41,4 +41,14 @@
   /* @apply top-[5%]; */
   /* @apply w-1/2; */
   @apply relative;
+  @apply max-w-full;
+}
+
+.image {
+ @apply sm:hidden;
+}
+
+.video {
+  @apply hidden;
+  @apply sm:block;
 }
