@@ -9,9 +9,9 @@ export default function Home() {
     <main className="flex flex-col items-center justify-between">
       <Click />
       {/* container */}
-      <div className="z-10 w-full max-w-5xl p-4 sm:hidden">
+      <div className="z-10 w-full max-w-5xl">
         {/* navbar */}
-        <div className="sm:flex items-center justify-between gap-4">
+        <div className="sm:flex items-center justify-between gap-4 mb-4 p-4">
           <div className="flex items-center self-center justify-center">
             <a href="https://linktr.ee/moneybag_james" className="items-center">
               <Image
@@ -34,8 +34,8 @@ export default function Home() {
                 <span className={styles.tooltip}>coming soon</span>
               </div>
               <div className={styles.item}>
-                <a href="#" className={styles.borderlink}>Secrets</a>
-                <span className={styles.tooltip}>coming soon</span>
+                <a href="#" className={styles.borderlink}>More</a>
+                <span className={styles.tooltip}>planned...</span>
               </div>
             </div>
             {/* <div className={styles.row}>
@@ -51,9 +51,11 @@ export default function Home() {
           </nav>
         </div>
 
-        {/* <div className="flex flex-wrap"> */}
-          {/* hero w-1/2  */}
-          <div className="flex flex-col items-center justify-center gap-4 mt-4 hidden">
+        {/* fullscreen game ui */}
+        <RSUI />
+
+        <div className="flex flex-col items-center justify-center gap-4 mt-4">
+          <div className="hidden">
             <h1 className="text-2xl md:text-4xl px-8 sm:px-24 md:px-36 font-semibold text-center">
               It&apos;s me, Moneybag James. Master trader since day one. You can find me slinging $gp at the GE.
             </h1>
@@ -100,31 +102,24 @@ export default function Home() {
                 </div>
               </div>
             </nav>
-            <h2 className="text-3xl md:text-5xl font-semibold text-center mt-96">
-              something stirs beneath...
-            </h2>
-            <div className={styles.center}>
-              <Image
-                className="animate-pulse"
-                src="/dragon2.jpg"
-                alt="Dragon Logo"
-                width={320}
-                height={320}
-                priority
-              />
-            </div>
           </div>
-          {/* inventory (old idea) */}
-          {/* <div className="w-1/2">
+          <h2 className="text-3xl md:text-5xl font-semibold text-center mt-96">
+            something stirs beneath...
+          </h2>
+          <div className={styles.center}>
+            <Image
+              className="animate-pulse"
+              src="/dragon2.jpg"
+              alt="Dragon Logo"
+              width={320}
+              height={320}
+              priority
+            />
+          </div>
+        </div>
 
-          </div> */}
-        {/* </div> */}
-        
       </div>
       {/* endcontainer */}
-
-      {/* fullscreen game ui */}
-      <RSUI />
     </main>
   )
 }

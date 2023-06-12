@@ -30,10 +30,6 @@
   @apply w-1/5;
 }
 
-/* .image img {
-  @apply w-[80%];
-} */
-
 .textbox {
   @apply w-4/5;
   @apply text-center;

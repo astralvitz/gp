@@ -38,7 +38,7 @@
 
 .screen {
   @apply m-auto;
-  @apply top-[20%];
+  @apply top-[5%];
   @apply w-1/2;
   @apply relative;
 }

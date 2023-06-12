@@ -29,7 +29,9 @@
 
 .tooltip {
   visibility: hidden;
-  @apply w-[120px];
+  @apply min-w-[120px];
+  @apply px-1;
+  @apply box-content;
   /* @apply bg-orange-950; */
   /* background-color: #333333; */
   @apply bg-amber-950;
@@ -51,4 +53,62 @@
 
 .slot:hover .tooltip {
   visibility: visible;
+}
+
+.small_tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: gold;
+  color: black;
+  text-align: center;
+  /* border-radius: 6px; */
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 10;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.icon:hover .small_tooltip {
+  visibility: visible;
+}
+
+.icon {
+  @apply absolute;
+  width: 14%;
+  height: 8%;
+}
+
+.musicplayer {
+  @apply bottom-1;
+  @apply right-1;
+}
+
+.combat {
+  @apply absolute;
+  @apply top-1;
+  @apply left-1;
+  /* @apply bg-blue-600; */
+  width: 14%;
+  height: 8%;
+}
+
+.stats {
+  @apply absolute;
+  @apply top-1;
+  @apply left-10;
+  @apply bg-blue-600;
+  width: 14%;
+  height: 8%;
+}
+
+.quests {
+  @apply absolute;
+  @apply top-1;
+  @apply left-20;
+  @apply bg-blue-600;
+  width: 14%;
+  height: 8%;
 }
