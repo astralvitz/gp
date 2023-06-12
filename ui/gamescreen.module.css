@@ -36,19 +36,16 @@
   @apply text-base;
 }
 
-.screen {
+.image {
   @apply m-auto;
-  /* @apply top-[5%]; */
-  /* @apply w-1/2; */
+  @apply top-[5%];
+  @apply w-1/2;
   @apply relative;
   @apply max-w-full;
+  /* @apply sm:hidden; */
 }
 
-.image {
- @apply sm:hidden;
-}
-
-.video {
+/* .video {
   @apply hidden;
   @apply sm:block;
-}
+} */

@@ -19,9 +19,9 @@ export function GameScreen() {
             priority
           />
         </div>
-        <div className={styles.video}>
+        {/* <div className={styles.video}>
           <GameScreenPlayer />
-        </div>
+        </div> */}
       </div>
       {/* <p className={styles.text}>$gp balance / 00000000</p> */}
       <div className={styles.tells}>
