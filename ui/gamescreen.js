@@ -19,7 +19,7 @@ export function GameScreen() {
       </div>
       {/* <p className={styles.text}>$gp balance / 00000000</p> */}
       <div className={styles.tells}>
-        {/* <Music /> */}
+        <Music />
       </div>
     </div>
   )
