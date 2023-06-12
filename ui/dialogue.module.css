@@ -40,8 +40,14 @@
   @apply md:text-xl;
   @apply flex;
   @apply flex-col;
-  @apply sm:justify-between;
-  @apply h-[70%];
+  @apply justify-between;
+
+  /* @apply h-[90%];
+  @apply sm:h-[70%]; */
+  @apply h-max;
+
+  @apply leading-3;
+  @apply sm:leading-relaxed;
 }
 
 .name {
@@ -49,8 +55,8 @@
 }
 
 .text {
-  @apply line-clamp-1;
-  @apply xs:line-clamp-3;
+  /* @apply line-clamp-1;
+  @apply xs:line-clamp-3; */
 }
 
 .click {
