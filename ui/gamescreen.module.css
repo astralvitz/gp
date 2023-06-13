@@ -9,13 +9,18 @@
   @apply absolute;
   @apply left-0;
   @apply top-0;
+
+  background-image: url('/welcometothegrandexchangesmall.jpg');
+  @apply bg-contain;
+  @apply bg-no-repeat;
+  @apply bg-center;
 }
 
 .text {
   @apply text-white;
   /* @apply hidden;
   @apply xs:inline-block; */
-  @apply text-sm;
+  @apply text-xs;
   @apply sm:text-base;
   @apply md:text-xl;
   @apply relative;

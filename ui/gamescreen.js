@@ -9,7 +9,7 @@ export function GameScreen() {
       {/* <img src="/ui_gamescreen.jpg" alt="game screen" /> */}
       <p className={styles.text}>$gp contract / 0x8F8eD076e61A27DB72a5724ea0907A66fb0ddB32</p>
       <div className={styles.screen}>
-        <div className={styles.image}>
+        {/* <div className={styles.image}>
           <Image
             className="screen"
             src="/welcometothegrandexchangesmall.jpg"
@@ -18,7 +18,7 @@ export function GameScreen() {
             height={320}
             priority
           />
-        </div>
+        </div> */}
         {/* <div className={styles.video}>
           <GameScreenPlayer />
         </div> */}
