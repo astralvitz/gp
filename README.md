@@ -1,6 +1,10 @@
 # goldpieces.io
 
+`gp` is a cryptocurrency that was created by someone in May 2023 during the low-cap meme-coin hysteria following Pepecoin's meteoric rise - and then was rugged by the lead developer who created NFTs that could be purchased with `gp`, then sold all `gp` for `ETH` and left. I was paying attention during all of this as I initially saw the potential for a Runescape-based memecoin to take off in hype.
 
+The mods wrestled control over the accounts and decided to keep `gp` alive as a social bridge between the Crypto and Runescape communities. I thought it was a nice idea, then I acted on inspiration to step up and offer to build a website for free to improve my web development skills, add it as a portfolio piece, assist these guys who seem to mean well & just want to play some Runescape with like-minded crypto enthusiasts, and potentially add value to the coin & potentially making some money via investment through a decentralized pet project.
+
+I initially created a super simple site, now seen at `old.goldpieces.io`, then worked on an Old School Runescape UI-based interface with interactable elements (still relatively simple but I had so much fun and it improved my CSS skills). The team has several genuinely interesting ideas for this project, which I shan't leak here, which make me very excited to contribute further. Okay, I'll leak there's some game development involved :)
 
 ### Credits
 
