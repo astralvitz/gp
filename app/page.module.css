@@ -1,9 +1,31 @@
+.main {
+  @apply flex flex-col items-center justify-between;
+}
+
+.container {
+  @apply w-full max-w-5xl;
+}
+
+.navbar {
+  @apply sm:flex items-center justify-between gap-4 mb-4 py-4 px-8;
+}
+
+.logo {
+  @apply flex items-center self-center justify-center;
+}
+
+.logo a {
+  @apply items-center;
+}
+
 .nav {
   @apply flex;
   @apply items-center;
   @apply justify-between;
   @apply gap-4;
   @apply flex-col;
+  @apply pt-4;
+  @apply sm:pt-0;
 }
 
 .row {
@@ -47,4 +69,17 @@
 
 .item:hover .tooltip {
   visibility: visible;
+}
+
+.footer {
+  @apply flex flex-col items-center justify-center gap-4 mt-4;
+}
+
+.secret {
+  @apply text-3xl md:text-5xl font-semibold text-center mt-[108rem];
+}
+
+.secret img {
+  @apply mt-4;
+  @apply mx-auto;
 }

@@ -1,0 +1,65 @@
+/* 1085 x 338 dialogue  67.8% x 32.2% */
+.frame {
+  @apply bg-black;
+  @apply max-w-[1085px];
+  @apply max-h-[338px];
+  @apply w-[67.8%];
+  @apply h-[32.2%];
+
+  @apply absolute;
+  @apply left-0;
+  @apply bottom-0;
+  @apply flex;
+
+  @apply bg-dialogue-box;
+  @apply bg-cover;
+}
+
+.box {
+  @apply flex;
+  @apply flex-row;
+  @apply justify-center;
+  @apply items-center;
+  @apply content-center;
+  @apply w-full;
+  @apply mx-[5%];
+  @apply mb-[4%];
+}
+
+.image {
+  @apply w-1/5;
+}
+
+.textbox {
+  @apply w-4/5;
+  @apply text-center;
+  @apply text-xs;
+  /* @apply leading-tight;
+  @apply md:leading-normal; */
+  @apply xs:text-sm;
+  @apply md:text-xl;
+  @apply flex;
+  @apply flex-col;
+  @apply justify-between;
+
+  /* @apply h-[90%];
+  @apply sm:h-[70%]; */
+  @apply h-max;
+
+  @apply leading-3;
+  @apply sm:leading-relaxed;
+}
+
+.name {
+  @apply text-red-700;
+}
+
+.text {
+  /* @apply line-clamp-1;
+  @apply xs:line-clamp-3; */
+}
+
+.click {
+  @apply text-blue-700;
+  @apply hover:underline;
+}

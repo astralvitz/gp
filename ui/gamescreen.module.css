@@ -1,0 +1,56 @@
+/* 1085 x 711 gamescreen  67.8% x 67.7% */
+.box {
+  @apply bg-black;
+  /* @apply max-w-[1085px];
+  @apply max-h-[711px]; */
+  @apply w-[67.8%];
+  @apply h-[67.7%];
+
+  @apply absolute;
+  @apply left-0;
+  @apply top-0;
+
+  background-image: url('/welcometothegrandexchangesmall.jpg');
+  @apply bg-contain;
+  @apply bg-no-repeat;
+  @apply bg-center;
+}
+
+.text {
+  @apply text-white;
+  /* @apply hidden;
+  @apply xs:inline-block; */
+  @apply text-xs;
+  @apply sm:text-base;
+  @apply md:text-xl;
+  @apply relative;
+  @apply z-10;
+  @apply pt-1;
+  @apply px-2;
+  @apply break-words;
+}
+
+.tells {
+  @apply text-cyan-400;
+  @apply absolute;
+  @apply left-0;
+  @apply bottom-0;
+  @apply px-2;
+
+  @apply sm:text-sm;
+  @apply text-base;
+}
+
+.image {
+  @apply m-auto;
+  @apply top-[5%];
+  @apply w-1/2;
+  @apply relative;
+  @apply max-w-full;
+  /* @apply sm:hidden; */
+}
+
+/* .video {
+  @apply hidden;
+  @apply sm:block;
+} */

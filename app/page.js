@@ -1,14 +1,19 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+import { RSUI } from '@/ui/rsui'
+import { Click } from '@/components/click'
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8 sm:p-24">
-      {/* navbar */}
-      <div className="z-10 w-full max-w-5xl">
-        <div className="sm:flex items-center justify-between gap-4">
-          <div className="flex items-center self-center justify-center mb-4">
-            <a href="https://linktr.ee/moneybag_james" className="items-center">
+    <main className={styles.main}>
+      <Click />
+      {/* container */}
+      <div className={styles.container}>
+        {/* navbar */}
+        <div className={styles.navbar}>
+          <div className={styles.logo}>
+            <a href="https://linktr.ee/moneybag_james">
               <Image
                 src="/gplogo-transparent.png"
                 alt="GP Logo"
@@ -29,8 +34,8 @@ export default function Home() {
                 <span className={styles.tooltip}>coming soon</span>
               </div>
               <div className={styles.item}>
-                <a href="#" className={styles.borderlink}>Secrets</a>
-                <span className={styles.tooltip}>coming soon</span>
+                <a href="#" className={styles.borderlink}>More</a>
+                <span className={styles.tooltip}>planned...</span>
               </div>
             </div>
             {/* <div className={styles.row}>
@@ -46,9 +51,11 @@ export default function Home() {
           </nav>
         </div>
 
-        {/* <div className="flex flex-wrap"> */}
-          {/* hero w-1/2  */}
-          <div className="flex flex-col items-center justify-center gap-4 mt-4">
+        {/* fullscreen game ui */}
+        <RSUI />
+
+        <div className={styles.footer}>
+          {/* <div className="hidden">
             <h1 className="text-2xl md:text-4xl px-8 sm:px-24 md:px-36 font-semibold text-center">
               It&apos;s me, Moneybag James. Master trader since day one. You can find me slinging $gp at the GE.
             </h1>
@@ -95,27 +102,24 @@ export default function Home() {
                 </div>
               </div>
             </nav>
-            <h2 className="text-3xl md:text-5xl font-semibold text-center mt-96">
+          </div> */}
+          <div className={styles.secret}>
+            <h2 >
               something stirs beneath...
             </h2>
-            <div className={styles.center}>
-              <Image
-                className="animate-pulse"
-                src="/dragon2.jpg"
-                alt="Dragon Logo"
-                width={320}
-                height={320}
-                priority
-              />
-            </div>
+            <Image
+              className="animate-pulse"
+              src="/dragon2.jpg"
+              alt="Dragon Logo"
+              width={320}
+              height={320}
+              priority
+            />
           </div>
-          {/* inventory */}
-          {/* <div className="w-1/2">
+        </div>
 
-          </div> */}
-        {/* </div> */}
-        
       </div>
+      {/* endcontainer */}
     </main>
   )
 }
