@@ -10,7 +10,7 @@
   @apply left-0;
   @apply top-0;
 
-  background-image: url('/welcometothegrandexchangesmall.jpg');
+  /* background-image: url('/welcometothegrandexchangesmall.jpg'); */
   @apply bg-contain;
   @apply bg-no-repeat;
   @apply bg-center;
