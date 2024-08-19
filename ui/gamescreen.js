@@ -1,7 +1,8 @@
 import Image from 'next/image';
+
 import styles from './gamescreen.module.css';
+
 import { Music } from '@/components/music';
-import { GameScreenPlayer } from '@/components/gamescreenplayer';
 import LyricsDisplay from '@/components/LyricsDisplay';
 
 export function GameScreen() {
@@ -23,7 +24,7 @@ export function GameScreen() {
         {/* <div className={styles.video}>
           <GameScreenPlayer />
         </div> */}
-        <LyricsDisplay videoId="x_zE4gyi-qA" />
+        {/* <LyricsDisplay videoId="x_zE4gyi-qA" /> */}
       </div>
       {/* <p className={styles.text}>$gp balance / 00000000</p> */}
       <div className={styles.tells}>

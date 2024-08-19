@@ -20,6 +20,7 @@ module.exports = {
         'minimap': 'url(/ui_minimap_transparency.jpg)',
         'minimap-ge': 'url(/ui_minimap.jpg)',
         'inventory': 'url(/ui_inventory.jpg)',
+        'anjuroom': 'url(/anjuroom.jpg)',
       },
       fontFamily: {
         'runescape': ['Runescape', 'sans-serif'],

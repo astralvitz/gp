@@ -6,13 +6,20 @@ import { Inventory } from '@/ui/inventory';
 import { Dialogue } from '@/ui/dialogue';
 import { GameScreen } from '@/ui/gamescreen';
 
+import SoundCloudPlayer from '@/components/SoundCloudPlayer';
+
 export function RSUI() {
   return (
-    <div className={styles.frame}>
-      <GameScreen />
-      <Minimap />
-      <Dialogue />
-      <Inventory />
-    </div>
+    <>
+      <div className={styles.frame}>
+        <GameScreen />
+        <Minimap />
+        <Dialogue />
+        <Inventory />
+      </div>
+      <div className={styles.anjuframe}>
+        <SoundCloudPlayer trackUrl="https://soundcloud.com/anjuonline/club-kawaii" />
+      </div>
+    </>
   )
 }

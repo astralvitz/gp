@@ -21,3 +21,21 @@
 /* 1085 x 338 dialogue  67.8% x 32.2% */
 /* 514 x 699 inventory  32.1% x 66.6% */
 /* 513 x 350 minimap    32.1% x 33.3% */
+
+.anjuframe {
+  @apply bg-anjuroom;
+  @apply min-h-[840px];
+  @apply bg-auto;
+  @apply bg-contain;
+  @apply bg-no-repeat;
+  @apply bg-center;
+
+  @apply overflow-visible;
+  @apply relative;
+  @apply bg-black;
+  @apply w-[100vw];
+  @apply h-[65vw];
+  @apply m-auto;
+  @apply max-w-[988px];
+  @apply max-h-[648px];
+}

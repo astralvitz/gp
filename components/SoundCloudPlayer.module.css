@@ -1,0 +1,5 @@
+.iframe {
+  @apply absolute;
+  @apply bottom-24;
+  @apply right-24;
+}
